@@ -1,4 +1,4 @@
-- host: 192.168.122.92
+- hosts: 192.168.122.92
   vars:
     my_var: gt_tv
   tasks:
