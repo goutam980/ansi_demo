@@ -1,0 +1,8 @@
+- hosts: 192.168.122.92
+  vars:
+    my_var: gt_tv
+  tasks:
+  
+  - name: printing  variable value
+    debug:
+      msg: "{{ my_var }}"
